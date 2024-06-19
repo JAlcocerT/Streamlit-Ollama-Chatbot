@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  streamlit-ollama-chat:
+    image: ghcr.io/jalcocert/streamlit-ollama-chatbot:v1.0 #streamllama
+    container_name: streamlit_ollama
+    volumes:
+      - ai_streamlit_ollama:/app
+    working_dir: /app  # Set the working directory to /app
+    command: /bin/sh -c "streamlit run ollama_chatbot.py"    
+    #command: streamlit run appv2.py # tail -f /dev/null
+    ports:
+      - "8501:8501"    
+
+volumes:
+  ai_streamlit_ollama:
+
+#docker run -p 8501:8501 -v ai_streamlit_ollama:/app --name streamlit_ollama streamllama:latest /bin/sh -c "cd /app && streamlit run ollama_chatbot.py"
+#podman run -p .....
+
+#docker-compose up -d

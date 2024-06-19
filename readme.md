@@ -1,3 +1,21 @@
+Try the Project quickly with Python Venv's:
+
+```sh
+python -m venv streamllama #create it
+
+streamllama\Scripts\activate #activate venv (windows)
+source streamllama/bin/activate #(linux)
+```
+
+```sh
+pip install -r requirements.txt #all at once
+streamlit run ollama_chatbot.py
+```
+
+Make sure to have [ollama ready](https://fossengineer.com/selfhosting-llms-ollama/) and running your desired model!
+
+---
+
 # Streamlit Ollama Chatbot
 
 This repo contains the completed code for the YouTube tutorial video series:

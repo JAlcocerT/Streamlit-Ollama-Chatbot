@@ -1,2 +1,2 @@
-ollama
-streamlit
+ollama==0.2.1 ##pip show ollama
+streamlit==1.35.0 #https://pypi.org/project/streamlit/#history

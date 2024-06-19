@@ -1,0 +1,1 @@
+**Important**: you need to have ollama running with the desired model at the default port 11434
