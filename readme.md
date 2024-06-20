@@ -1,3 +1,5 @@
+[![CI/CD Pipeline](https://github.com/JAlcocerT/Streamlit-Ollama-Chatbot/actions/workflows/streamlit_GH_Actions.yml/badge.svg)](https://github.com/JAlcocerT/Streamlit-Ollama-Chatbot/actions/workflows/streamlit_GH_Actions.yml)
+
 Try the Project quickly with Python Venv's:
 
 ```sh
